@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(66, 130, 214);
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.conatiner{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px
+}
+.search-div{
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+input{
+    font-size: 1rem;
+}
+.all-posts{
+ display: flex;
+ flex-direction: column;
+ margin-top: 10px;
+}
+.post{
+    background-color: rgb(151, 189, 238);;
+    padding: .5rem;
+    margin: 10px;
+    border-radius: 5px;
+}
+.post> .header{
+    margin-bottom: .25rem;
+}
+.post> .body{
+    margin-bottom: .8rem;
+    color:white;
+}
+.hide{
+    display: none;
+}
