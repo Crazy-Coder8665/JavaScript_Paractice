@@ -48,15 +48,10 @@ const words = [
 ];
 
 function init() {
-  // Show number of seconds in UI
   seconds.innerHTML = currentLevel;
-  // Load word from array
   showWord(words);
-  // Start matching on word input
   wordInput.addEventListener('input', startMatch);
-  // Call countdown every second
   setInterval(countdown, 1000);
-  // Check game status
   setInterval(checkStatus, 50);
 }
 
